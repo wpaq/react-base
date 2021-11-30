@@ -12,6 +12,7 @@ export default function Login() {
           <small>loren ipsum</small>
         </Title>
         <Paragrafo>text</Paragrafo>
+        <button type="button">Enviar</button>
       </Container>
     )
 }

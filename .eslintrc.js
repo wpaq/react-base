@@ -28,5 +28,6 @@ module.exports = {
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn',
         'react/jsx-runtime': 0,
+        'no-unused-vars': 0,
     },
 }
