@@ -3,8 +3,7 @@ import React from 'react'
 import { Container } from '../../styles/GlobalStyles';
 import { Title, Paragrafo } from './styled';
 
-// eslint-disable-next-line react/function-component-definition
-export default function Login() {
+const Login = function Login() {
     return(
       <Container>
         <Title>
@@ -16,3 +15,5 @@ export default function Login() {
       </Container>
     )
 }
+
+export default Login;
