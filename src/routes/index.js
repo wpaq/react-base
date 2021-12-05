@@ -1,11 +1,17 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch } from 'react-router-dom'
+import { toast } from 'react-toastify';
 
 import MyRoute from './MyRoute';
 import Login from '../pages/Login'
 import Page404 from '../pages/Page404'
 
 const Routes = function () {
+    toast.success('Sucesso', {
+      toastId: 'sucess'
+    });
+
+
     return (
         <Switch>
             <MyRoute exact path="/" component={Login} />
