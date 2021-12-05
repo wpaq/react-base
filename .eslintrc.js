@@ -29,5 +29,6 @@ module.exports = {
         'react-hooks/exhaustive-deps': 'warn',
         'react/jsx-runtime': 0,
         'no-unused-vars': 0,
+        "react/jsx-props-no-spreading": ["error", {"custom": "ignore"}]
     },
 }
